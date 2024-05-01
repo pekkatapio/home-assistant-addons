@@ -1,0 +1,15 @@
+name: "iperf3 server"
+description: "iperf3-palvelin, jonka avulla voi voi testata oman lähiverkon nopeuden"
+version: "0.9.7"
+slug: "iperf3-server"
+init: false
+url: "https://github.com/pekkatapio/home-assistant-addons/tree/main/iperf3-server"
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
+startup: services
+ports:
+  5201/tcp: 5201
