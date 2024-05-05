@@ -8,6 +8,7 @@ image: "ghcr.io/pekkatapio/image-{arch}-iperf3-server"
 arch:
   - amd64
   - i386
+  - armv7  
 startup: services
 ports:
   5201/tcp: 5201
