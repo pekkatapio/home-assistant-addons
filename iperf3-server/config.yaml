@@ -8,6 +8,7 @@ image: "ghcr.io/pekkatapio/image-{arch}-iperf3-server"
 arch:
   - aarch64
   - amd64
+  - armhf
   - i386
   - armv7  
 startup: services
