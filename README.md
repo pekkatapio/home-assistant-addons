@@ -10,7 +10,7 @@ Tämä kokoelma sisältää seuraavat lisäosat
 
 ### [iperf3 server](./iperf3-server)
 
-![Does not support aarch64 Architecture][aarch64-shield]
+![Supports aarch64 Architecture][aarch64-shield]
 ![Supports amd64 Architecture][amd64-shield]
 ![Does not support armhf Architecture][armhf-shield]
 ![Supports armv7 Architecture][armv7-shield]
@@ -37,7 +37,7 @@ Notes to developers after forking or using the github template feature:
 - Do awesome stuff!
  -->
 
-[aarch64-shield]: https://img.shields.io/badge/aarch64-no-red.svg
+[aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
